@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: .5s all ease-in-out;
+    -webkit-animation:fadeIn 2s;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+    -webkit-animation:bounceIn 2s;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divLoaderApp{
+    width: 100%;
+    background-color: #ffff;
+    height: 100vh;
+}
+.divHeaderLoader{
+    height: 4vh;
+    background: #ececed;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    animation: pulse 6s infinite;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.DivItemLoader{
+    width: 50%;
+    background: #fff;
+    height: 2vh;
+    border-radius: 20px;
+}
+.divCallLoader{
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -3vh;
+    margin-left: 45vh;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+    transition: .5s all ease-in-out;
+    z-index: 1;
+}
+.menuAappLoader{
+    width: 100%;
+    height: 10vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divItemLoader{
+    content: "";
+    width: 30%;
+    background: #ececed;
+    border-radius: 20px;
+    height: 7vh;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divFirtsMenuLoader{
+    height: 7vh;
+    width: 100%;
+    background: #ececed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divItemMenuLoader{
+    background: #fff;
+    width: 15%;
+    height: 5vh;
+    border-radius: 20px;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+    animation: loading 3s linear 1s infinite;
+}
+.divNotificationLoader{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+}
+.divNotificationItemLoader{
+    width: 40px;
+    height: 40px;
+    background-color: #ececed;
+    border-radius: 50%;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divNotiItemLoader{
+    width: 60%;
+    background-color: #ececed;
+    height: 3vh;
+    border-radius: 20px;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divSliderLoader{
+    width: 100%;
+    background: #ececec;
+    height: 30vh;
+}
+.divContactLoader{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.divRow1Loader,.divRo2Loader{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divRo2Loader{
+    width: 60%;
+    justify-content: space-around;
+}
+.divItemContactLoader{
+    width: 80%;
+    height: 3vh;
+    border-radius: 20px;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+    background: #ececed;
+}
+.divItemContact2Loader{
+    width: 30%;
+    height: 3vh;
+    background: #ececec;
+    border-radius: 20px;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divFooterLoader{
+    background: #ececec;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divCalendarLoader{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divItemCalendarLoader{
+    width: 40%;
+    height: 3vh;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divPickerLoader{
+    height:7vh;
+    width: 40%;
+    margin-top: 5vh;
+    border-radius: 20px;
+    background: #fff;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+.divButtonLoader{
+    margin-top: 3vh;
+    height: 7vh;
+    background: #fff;
+    border-radius: 20px;
+    width: 80%;
+    -webkit-animation:pulse 6s infinite;
+    -webkit-animation-duration :1s;
+    -webkit-animation-delay :1s;
+}
+
+
+
+@-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    20% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1);
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9);
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(1.03, 1.03, 1.03);
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+  
+    80% {
+      -webkit-transform: scale3d(0.97, 0.97, 0.97);
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+
+  @keyframes loading {
+    from {left: 50%; width: 0;z-index:100;}
+    33.3333% {left: 0; width: 15%;z-index: 10;}
+    to {left: 0; width: 15%;}
+}
